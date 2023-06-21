@@ -1,0 +1,149 @@
+.adv{
+    position: absolute;
+    left: 25rem;
+    display: flex;
+   
+
+    h1{
+       
+        width: 55rem;
+        display: block;
+        position: relative;
+        top: -350px;
+        font-weight: 900;
+    }
+
+}
+
+
+.col{
+   width: 50%;
+}
+
+
+
+.col1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    position: absolute;
+    left: 25rem;
+    top: 7.7rem;
+    font-family: 'Oxygen', sans-serif;
+
+    
+    p{
+         margin: 2rem;
+         font-size: 1.4rem;
+         color: white;
+         font-weight: 400;
+         position: absolute;
+         top: 3.6rem;
+         left: 4rem;
+         font-family: 'Signika Negative', sans-serif;
+         width: 40rem;
+    }
+
+    .explore{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        position: relative;
+        bottom: -11.9rem;
+        right: -52rem;
+        height: 2.5rem;
+        width: 9.5rem;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+
+    .explore:hover{
+        background-color: black;
+        color : white;
+    }
+}
+
+
+.Join{
+    background-color: rgb(32, 8, 8);
+    position: absolute;
+    top: 23.28rem;
+    left: 0px;;
+    height: 31.76rem;
+    width: 95.99rem;
+    background-size: cover;
+    
+
+    img{
+        position: relative;
+        top: 4rem;
+        left: 7rem;
+        height: 15rem;
+        width: 28rem;
+        border-radius: 0.75rem;
+        
+    }
+}
+
+
+.US{
+    position: absolute;
+    right: 19rem;
+    bottom: 1rem;
+    color: rgb(63, 211, 5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: .9rem;
+    
+    
+
+    p{
+        line-height: 2rem;
+        margin: 0.5rem;
+        font-size: 1.2rem;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .SignUp{
+        width: 9.5rem;
+        height: 3rem;
+        position: absolute;
+        right: 0rem;
+        bottom: 2rem;
+        color: #fff;
+        letter-spacing: 0.2rem;
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+
+    .SignUp:hover{
+        background-color: #fff;
+        color: black;
+    }
+}
+
+.skillitem{
+    border-left: .2em solid var(--primary-color);
+    padding-left: .7em;
+    animation-name: slideright;
+    transform: translateX(100%);
+     opacity: 0;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    @for $i from 1 through 7{
+         &:nth-child(#{$i}){
+            animation-delay: #{$i * .1}s;
+         }
+    }
+
+}
+
+.typing-container {
+    display: inline;
+    width: 150px; /* Adjust the width as needed */
+  }

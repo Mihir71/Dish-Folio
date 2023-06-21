@@ -1,0 +1,195 @@
+:root{
+    --background-color: #fff;
+    --background-light: #fff;
+    --shadow-color: rgba(255, 255, 255,0.35);
+    --primary-color: rgb(255,0,86);
+    --text-color: #ffffff;
+    --text-align: #575757;
+    --font-size: 16px;
+    --animation-speed: 1;
+}
+
+/* Default Style */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: transparent;
+  
+    
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vw;
+    display: flex;
+}
+
+.nice {
+    background-image: url("https://i.etsystatic.com/21682064/r/il/b420fc/2800303227/il_fullxfull.2800303227_a5pc.jpg");
+    background-size : cover;
+    height: 51vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    opacity: 0.9; 
+     
+}
+
+.navhead{
+    opacity: 1;
+}
+
+.herohead{
+    opacity: 1;
+}
+
+.main{
+    padding-block: 3vw;
+}
+
+.container{
+    padding-inline: 15vw
+}
+
+
+.heads{
+  position: absolute;
+  width: 1055px;
+  top: -325px;
+  left: -202px;
+}
+
+
+.share-your-dish-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  position: relative;
+  top: 42px;
+
+  h2{
+    margin: 11px;
+  }
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button[type='submit'] {
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+@import "partials/_navbar.scss";
+@import "partials/join.scss";
+@import "partials/_animations.scss";
+@import "partials/quote";
+@import "partials/chef.scss";
+@import "partials/footer";
+@import "partials/previoussearcrhes.scss";
+@import "partials/recipe.scss";
+@import "partials/settings";
+@media screen and (max-width: 1278px){
+     .menu{
+        display: none;
+     }
+
+     .ChefCard{
+        box-shadow: 0 5px 10px var(--shadow-color);
+     }
+    }
+
+.fa-solid.fa-bars{
+   
+
+    @media screen and (min-width:1278px) and (max-width:1920px){
+        display: none !important;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1512){
+    .nice{
+        width: 51vw;
+        position: absolute;
+        right: 0;
+    }
+}
+
+
+.col1.explore{
+@media screen and (min-width:768px) and (max-width: 1722){
+    
+        position: absolute;
+        height: 5rem;
+        width: 7rem;
+        bottom: 0rem;
+        color: chartreuse;
+    
+}
+}
+
+
+
+
+
+
+
+
+      
+
+    

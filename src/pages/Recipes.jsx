@@ -89,7 +89,7 @@
 
 import { Link } from 'react-router-dom';
 
-import React, { useState } from 'react';
+
 import PreviousSearches from '../components/PreviousSearches';
 import TypingText from '../components/typetext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -97,14 +97,7 @@ import { faSave } from '@fortawesome/free-solid-svg-icons';
 
 
 const Recipes = () => {
-  // const [savedRecipes, setSavedRecipes] = useState([]);
-
-  // const handleSaveRecipe = (recipe) => {
-  //   setSavedRecipes((prevRecipes) => [
-  //     ...prevRecipes,
-  //     { title: recipe, imageUrl: 'https://th.bing.com/th/id/OIP.wMDVs4VEbhS52cyl3CNqGQHaGE?pid=ImgDet&w=400&h=328&rs=1', viewUrl: 'URL', videoUrl: 'URL' }
-  //   ]);
-  // };
+  
   
 
   return (

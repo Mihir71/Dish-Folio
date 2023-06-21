@@ -12,7 +12,7 @@ const Navbar = () => {
     const links = [
       {
         name : "Home",
-        path : "/",
+        path : "/Dish-Folio",
         icon : faHome
       },
       {

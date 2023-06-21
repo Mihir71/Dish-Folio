@@ -21,7 +21,7 @@ function App()  {
     </div>
     <div className="container main">
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route index path="/Dish-Folio" element={<Home />}  />
       <Route path="/Recipe" element={<Recipes />} />
       <Route path="/Share_Your_Dish" element={<Share_Your_Dish />} />
       <Route path="/Settings" element={<Settings />} />

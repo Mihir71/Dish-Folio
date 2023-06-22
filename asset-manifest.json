@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Dish-Folio/static/css/main.e9fdd1a5.css",
+    "main.css": "/Dish-Folio/static/css/main.cb796077.css",
     "main.js": "/Dish-Folio/static/js/main.df0440a8.js",
     "index.html": "/Dish-Folio/index.html",
-    "main.e9fdd1a5.css.map": "/Dish-Folio/static/css/main.e9fdd1a5.css.map",
+    "main.cb796077.css.map": "/Dish-Folio/static/css/main.cb796077.css.map",
     "main.df0440a8.js.map": "/Dish-Folio/static/js/main.df0440a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9fdd1a5.css",
+    "static/css/main.cb796077.css",
     "static/js/main.df0440a8.js"
   ]
 }

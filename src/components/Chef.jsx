@@ -6,7 +6,7 @@ const Chefc = () => {
 
         {
             name: "Sanjeev Kapoor",
-            img: "https://th.bing.com/th/id/R.273dc99ed8130b33f0c635e05824d679?rik=sysxgq1T8Hb%2boQ&riu=http%3a%2f%2fimages.mid-day.com%2fimages%2f2015%2fapr%2f19Sanjeev-Kapoor.jpg&ehk=BIfe8k%2btS%2b03iuocLCO1O7f%2flbT3VQWRAEYfOaBy5uk%3d&risl=&pid=ImgRaw&r=0",
+            img: "https://www.bing.com/images/search?view=detailV2&ccid=Jz3JntgT&id=183BA486DBE07838E6D6A1FE76F053AD82312BB3&thid=OIP.Jz3JntgTCzPwxjXgWCTWeQHaKV&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.273dc99ed8130b33f0c635e05824d679%3frik%3dsysxgq1T8Hb%252boQ%26riu%3dhttp%253a%252f%252fimages.mid-day.com%252fimages%252f2015%252fapr%252f19Sanjeev-Kapoor.jpg%26ehk%3dBIfe8k%252btS%252b03iuocLCO1O7f%252flbT3VQWRAEYfOaBy5uk%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=935&expw=670&q=sanjeev+kappor+image&simid=608052062798938482&FORM=IRPRST&ck=1EC257EA2CC948A8859EDB99134E37D7&selectedIndex=2&itb=0",
             norecipe: "150",
             cusine: "Indian"
         },
